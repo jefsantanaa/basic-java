@@ -1,2 +1,2 @@
-# dio-basic-java
+# basic-java
 Repository to store my Java studies.
