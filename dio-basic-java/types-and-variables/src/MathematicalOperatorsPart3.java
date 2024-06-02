@@ -39,5 +39,16 @@ public class MathematicalOperatorsPart3 {
         System.out.println(
                 "The value of result after post-decrement is: "
                         + result);
+
+        int number = 5; // Number 5 is positive.
+
+        number = - number; // Changing to negative.
+        System.out.println(number);
+
+        number = + number; // This way doesn't change to positive.
+        System.out.println(number);
+
+        number = number * -1; // We need to use multiplication to turn negative number to positive number.
+        System.out.println(number);
     }
 }
