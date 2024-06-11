@@ -23,3 +23,7 @@
 hs_err_pid*
 replay_pid*
 dio-basic-java/types-and-variables/.vscode/settings.json
+dio-basic-java/java-class-anatomy/.vscode/settings.json
+dio-basic-java/mathematical-operators/.vscode/settings.json
+dio-basic-java/methods-syntax/.vscode/settings.json
+dio-basic-java/terminal-arguments/.vscode/settings.json
