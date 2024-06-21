@@ -12,7 +12,7 @@ public class AboutMe2 {
     System.out.println("Type your surname");
     String surname = scanner.next();
 
-    System.out.println("Typer your age");
+    System.out.println("Type your age");
     int age = scanner.nextInt();
 
     System.out.println("Type your height");
