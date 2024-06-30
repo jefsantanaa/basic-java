@@ -2,21 +2,21 @@ import java.util.Random;
 
 public class ExampleDoWhile {
   public static void main(String[] args) {
-    System.out.println("Discando...");
+    System.out.println("Dialing...");
 
     do {
-      // excutando repetidas vezes até alguém atender
-      System.out.println("Telefone tocando");
+      // Running until you answer the phone
+      System.out.println("Phone Ringing!");
 
-    } while (tocando());
+    } while (ringing());
 
-    System.out.println("Alô !!!");
+    System.out.println("Hello");
   }
 
-  private static boolean tocando() {
-    boolean atendeu = new Random().nextInt(3) == 1;
-    System.out.println("Atendeu? " + atendeu);
+  private static boolean ringing() {
+    boolean answered = new Random().nextInt(3) == 1;
+    System.out.println("Did you answer? " + answered);
     // negando o ato de continuar tocando
-    return !atendeu;
+    return !answered;
   }
 }
