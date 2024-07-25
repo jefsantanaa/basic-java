@@ -1,3 +1,4 @@
+### Java ###
 # Compiled class file
 *.class
 
@@ -22,10 +23,48 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
-dio-basic-java/types-and-variables/.vscode/settings.json
-dio-basic-java/java-class-anatomy/.vscode/settings.json
-dio-basic-java/mathematical-operators/.vscode/settings.json
-dio-basic-java/methods-syntax/.vscode/settings.json
-dio-basic-java/terminal-arguments/.vscode/settings.json
-dio-basic-java/challenges/.vscode/settings.json
-dio-basic-java/conditions_if_statements/.vscode/settings.json
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
